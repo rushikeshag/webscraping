@@ -7,14 +7,12 @@ public class TableMeta {
 	String tableName;
 	List<String> columnNames;
 	List<TableRow> rows;
-	TableMeta childTable;
-	
-	
-	public TableMeta(String string){
+
+	public TableMeta(String string) {
 		tableName = string;
 		rows = new ArrayList<>();
 	}
-	
+
 	public void add(TableRow create) {
 		rows.add(create);
 	}
@@ -22,7 +20,7 @@ public class TableMeta {
 	public List<TableRow> getRows() {
 		return rows;
 	}
-	
+
 	public String name() {
 		return tableName;
 	}

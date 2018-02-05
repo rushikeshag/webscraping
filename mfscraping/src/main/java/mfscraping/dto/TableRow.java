@@ -10,8 +10,8 @@ public class TableRow {
 		this.name = name;
 	}
 
-	public static TableRow create( int code, String name) {
-		return new TableRow( code, name);
+	public static TableRow create(int code, String name) {
+		return new TableRow(code, name);
 	}
 
 	public int getCode() {
@@ -21,6 +21,4 @@ public class TableRow {
 	public String getName() {
 		return name;
 	}
-	
-	
 }
