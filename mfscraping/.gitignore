@@ -1,2 +1,9 @@
 /target/
 .settings/
+databases/
+.classpath
+.project
+.settings/
+*.credentials.json
+log/
+*.log
