@@ -15,7 +15,7 @@ import mfscraping.dto.TableRow;
 
 public class MFSchemeExtractor {
 
-	void extractSchems(TableMeta table) {
+	public void extractSchems(TableMeta table) {
 		String baseUrlString = "https://www.fundsindia.com/content/jsp/LP/Topschemes/displayCurrentNAV.jsp?";
 		try {
 			List<TableRow> rows = table.getRows();

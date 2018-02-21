@@ -11,6 +11,8 @@ import java.util.List;
 import com.csvreader.CsvWriter;
 
 import mfscraping.dao.MFDAO;
+import mfscraping.dao.TableObject;
+import mfscraping.dto.MFDir;
 import mfscraping.dto.TableMeta;
 import mfscraping.dto.TableRow;
 
@@ -41,6 +43,13 @@ public class MFDAOFsImpl implements MFDAO {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+
+	@Override
+	public void saveObject(TableObject table) {
+		if(table instanceof MFDir)
+			;
+		
 	}
 
 }
